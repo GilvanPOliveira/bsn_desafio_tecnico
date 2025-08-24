@@ -1,4 +1,4 @@
-# bsn_desafio_tecnico
+# BSN Desafio técnico
 
 ## Pokemon - APP
 
