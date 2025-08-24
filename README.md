@@ -1,4 +1,6 @@
-# Pokedex-App
+# bsn_desafio_tecnico
+
+## Pokemon - APP
 
 Uma **Progressive Web App** híbrida construída com **Ionic 7 + Angular 15+** (Standalone Components), que consome a [PokeAPI](https://pokeapi.co/) para:
 
@@ -44,8 +46,8 @@ Uma **Progressive Web App** híbrida construída com **Ionic 7 + Angular 15+** (
 
 1. **Clone o repositório**  
    ```bash
-   git clone https://github.com/seu-usuario/pokedex-app.git
-   cd pokedex-app
+   git clone https://github.com/seu-usuario/bsn_desafio_tecnico.git
+   cd bsn_desafio_tecnico
     ```
 2. **Instale as dependências**
   ```bash
