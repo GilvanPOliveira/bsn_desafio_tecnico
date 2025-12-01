@@ -8,98 +8,11 @@ Uma **Progressive Web App** híbrida construída com **Ionic 7 + Angular 15+** (
 - Exibir detalhes completos (sprites, habilidades, movimentos e locais de encontro)  
 - Marcar e gerenciar favoritos durante a sessão  
 
----
-
-## 📋 Sumário
-
-- [Demo](#demo)  
-- [Pré-requisitos](#pré-requisitos)  
-- [Instalação](#instalação)  
-- [Estrutura de Pastas](#estrutura-de-pastas)  
-- [Rotas & Navegação](#rotas--navegação)  
-- [Como Funciona](#como-funciona)  
-- [Estilos e Temas](#estilos-e-temas)  
-- [Testes](#testes)  
-- [Melhorias Futuras](#melhorias-futuras)  
-- [Licença](#licença)  
-
----
-
-## Demo
+## Imagens do projeto em execução
 
 | Lista de Pokémons | Detalhes | Favoritos |
 |:-----------------:|:--------:|:---------:|
 | ![home](https://i.imgur.com/o3uNBne.png) | ![details](https://i.imgur.com/L6hDpRi.png) | ![favorites](https://i.imgur.com/lFoToLk.png) |
-
----
-
-## Pré-requisitos
-
-- Node.js ≥ 18.x  
-- npm ≥ 8.x  
-- Ionic CLI ≥ 7.x  
-- (Opcional) Capacitor CLI para builds mobile  
-
----
-
-## Instalação
-
-1. **Clone o repositório**  
-   ```bash
-   git clone https://github.com/seu-usuario/bsn_desafio_tecnico.git
-   cd bsn_desafio_tecnico
-    ```
-2. **Instale as dependências**
-  ```bash
-  npm install
-  ```
-3. **Inicie o servidor de desenvolvimento**
-  ```bash
-  ionic serve
-  ```
-4. **Build para produção**
-  ```bash
-  ionic build
-  ```
-Os arquivos compilados serão gerados em www/.
-
----
-
-## Estrutura de Pastas
-
-  ```bash
-  src/
-  ├── app/
-  │   ├── app.component.ts       # Componente raiz (ion-app + outlet)
-  │   ├── routes.ts              # Rotas standalone
-  │   ├── models/                # Interfaces de domínio (pokemon.model.ts)
-  │   ├── services/              # LRU cache, PokeAPI client, favoritos
-  │   └── pages/
-  │       ├── home/              # Listagem e busca
-  │       ├── details/           # Detalhes de um Pokémon
-  │       └── favorites/         # Lista de favoritos
-  ├── environments/              # Configurações de ambiente
-  ├── global.scss                # Estilos globais
-  ├── index.html                 # Template raiz
-  ├── main.ts                    # Bootstrap Angular + Ionic
-  ├── polyfills.ts
-  └── zone-flags.ts
-  ```
-
----
-
-## Rotas & Navegação
-
-Definidas em src/app/routes.ts:
-  ```bash
-  Path	Página
-  /HomePage
-  /details/:id	DetailsPage
-  /favorites	FavoritesPage
-  ```
-Navegação via Router.navigate(['/details', id]) ou <ion-router-link>.
-
----
 
 ## Como Funciona
 
@@ -122,33 +35,12 @@ Navegação via Router.navigate(['/details', id]) ou <ion-router-link>.
 
 Todos os dados de favoritos ficam em memória (serviço FavoritesService). Para persistir entre sessões, pode-se integrar Capacitor Storage ou localStorage.
 
----
+## 🛠 Tecnologias Utilizadas
 
-## Estilos e Temas
+[![My Skills](https://skillicons.dev/icons?i=angular,html,typescript,sass,n&perline=10)](https://github.com/GilvanPOliveira)
 
-  -  global.scss: resets, tipografia e estilos globais
-  -  theme/variables.scss: variáveis de cores, fontes e espaçamentos do Ionic
-  -  Cada página possui seu arquivo .page.scss para estilos locais
+## 📬 Contato
 
----
-
-## Testes
-
-  -  Unitários para serviços em src/app/services/*.spec.ts
-  -  Execução:
-  ```bash
-  npm test
-  ```
-  -  Recomendações:
-    -  Adicionar testes de componentes com @angular/core/testing e IonicModule.forRoot()
-    -  E2E com Cypress ou Playwright para fluxos críticos (listagem, detalhes e favoritos)
-
----
-
-## Melhorias Futuras
-
-  -  Persistência de favoritos entre sessões
-  -  Tratamento de erros e loader universal
-  -  Internacionalização (i18n)
-  -  Acessibilidade (aria-attributes, contraste)
-  -  CI/CD para lint, build e testes automatizados
+Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
+- E-mail: gilvanoliveira06@gmail.com
+- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
