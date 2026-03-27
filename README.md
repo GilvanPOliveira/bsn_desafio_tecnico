@@ -8,11 +8,15 @@ Uma **Progressive Web App** híbrida construída com **Ionic 7 + Angular 15+** (
 - Exibir detalhes completos (sprites, habilidades, movimentos e locais de encontro)  
 - Marcar e gerenciar favoritos durante a sessão  
 
+##
+
 ## Imagens do projeto em execução
 
 | Lista de Pokémons | Detalhes | Favoritos |
 |:-----------------:|:--------:|:---------:|
 | ![home](https://i.imgur.com/o3uNBne.png) | ![details](https://i.imgur.com/L6hDpRi.png) | ![favorites](https://i.imgur.com/lFoToLk.png) |
+
+##
 
 ## Como Funciona
 
@@ -35,12 +39,27 @@ Uma **Progressive Web App** híbrida construída com **Ionic 7 + Angular 15+** (
 
 Todos os dados de favoritos ficam em memória (serviço FavoritesService). Para persistir entre sessões, pode-se integrar Capacitor Storage ou localStorage.
 
-## 🛠 Tecnologias Utilizadas
+##
+
+## Tecnologias Utilizadas
 
 [![My Skills](https://skillicons.dev/icons?i=angular,html,typescript,sass,n&perline=10)](https://github.com/GilvanPOliveira)
 
-## 📬 Contato
+##
 
-Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
-- E-mail: gilvanoliveira06@gmail.com
-- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
+## ⚙️ Como rodar
+
+```bash
+git clone https://github.com/GilvanPOliveira/bsn_desafio_tecnico
+cd bsn_desafio_tecnico
+npm install
+ionic serve
+```
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io/
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
