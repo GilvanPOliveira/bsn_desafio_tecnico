@@ -55,8 +55,5 @@
       <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Carregando mais..."></ion-infinite-scroll-content>
     </ion-infinite-scroll>
 
-    <ion-button *ngIf="!searchMode && pokemons.length < totalCount" expand="block" (click)="loadMore()" [disabled]="loading">
-      {{ loading ? 'Carregando...' : 'Carregar mais' }}
-    </ion-button>
   </ng-container>
 </ion-content>
