@@ -7,7 +7,7 @@
   "description": "An Ionic project",
   "scripts": {
     "ng": "ng",
-    "start": "ionic serve",
+    "start": "ng serve",
     "clean": "rimraf dist www",
     "build": "npm run clean && ng build --configuration=production && copyfiles -u 1 \"dist/**/*\" www",
     "watch": "ng build --watch --configuration development",

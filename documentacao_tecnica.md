@@ -207,7 +207,7 @@ Modelos (Models)
 
 3. Rode em dev:
   ```bash
-  ionic serve
+  npm start
   ```
 
 ---

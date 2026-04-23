@@ -53,7 +53,7 @@ Todos os dados de favoritos ficam em memória (serviço FavoritesService). Para 
 git clone https://github.com/GilvanPOliveira/bsn_desafio_tecnico
 cd bsn_desafio_tecnico
 npm install
-ionic serve
+npm start
 ```
 
 ##
